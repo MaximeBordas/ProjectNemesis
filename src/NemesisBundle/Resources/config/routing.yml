@@ -1,0 +1,3 @@
+nemesis_homepage:
+    path:     /
+    defaults: { _controller: NemesisBundle:Nemesis:index }
