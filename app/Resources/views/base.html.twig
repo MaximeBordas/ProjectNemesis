@@ -5,6 +5,7 @@
         <title>{% block title %}{% endblock %}</title>
         {% block stylesheets %}
             <link rel="stylesheet" href="{{ asset('bundles/nemesis/css/bootstrap.css') }}">
+            <link rel="stylesheet" href="{{ asset('bundles/nemesis/css/myStylesheet.css') }}">
             <link rel="stylesheet" href="https://use.fontawesome.com/32d5a1257c.css">
         {% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
@@ -57,6 +58,7 @@
     </footer>
         {% block javascripts %}
             <script src="{{ asset('bundles/nemesis/js/bootstrap.js') }}"></script>
+            <script src="{{ asset('bundles/nemesis/js/myJavascript.js') }}"></script>
             <script src="{{ asset('bundles/nemesis/js/jquery.js') }}"></script>
         {% endblock %}
     </body>
